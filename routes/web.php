@@ -13,3 +13,6 @@ Route::prefix('/item')->group(function(){
     Route::put('/{id}',[itemController::class,'update']);
     Route::delete('/{id}',[itemController::class,'destroy']);
 });
+
+Route::get(''
+)
